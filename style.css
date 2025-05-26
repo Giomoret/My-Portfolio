@@ -56,3 +56,66 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.certificados-lista {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.certificados-lista li {
+  margin-bottom: 20px;
+}
+
+.portfolio-card {
+  width: 100%;
+  max-width: 350px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: #333;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.card-content a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4F46E5;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.card-content a:hover {
+  background-color: #3730A3;
+}
